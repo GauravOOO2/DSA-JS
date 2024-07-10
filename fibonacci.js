@@ -1,11 +1,12 @@
-var fibo = 10;
-var output = 0;
-function fiobSeq(){
-    for(var i = 0; i<=fibo; i++){
-        output = i
-        console.log(output)
+function fibonacciPrint(x){
+    const fibo = [0,1]
+    var sum = 0;
+    for(let i = 2; i<=x; i++){
+        fibo[i] = fibo[i-1] + fibo[i-2]
     }
+    return fibo
+
 }
 
 
-fiobSeq()
+console.log(fibonacciPrint(5))
