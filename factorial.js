@@ -1,12 +1,9 @@
-var fact1 = 5;
-
-var output = 1;
-
-function factorial(){
-    for(var i = 1; i<fact1; i++){
-        output = output*i
+function factorial(x){
+    var sum = 1; 
+    for(var i = 1; i<=x ; i++ ){
+        sum = sum*i;
     }
-    console.log(output);
+    return sum
 }
 
-factorial()
+console.log(factorial(5))
