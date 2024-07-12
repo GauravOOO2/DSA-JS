@@ -1,9 +1,14 @@
-function primeNum(x){
-    var num = 0
-   return  num = x % 2
+function primeNumber(n){
+    if(n<2){
+        return false
+    }
+        for(let i = 2; i<n; i++){
+            if(n%i === 0 ){
+                return false;
+            }
+        }
+        return true;
 }
 
 
-console.log(primeNum(10))
-
-console.log(11 % 2)
+console.log(primeNumber(5))
