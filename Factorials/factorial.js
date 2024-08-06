@@ -6,4 +6,4 @@ function factorial(x){
     return sum
 }
 
-console.log(factorial(5))
+console.log(factorial(10))
