@@ -3,8 +3,7 @@ let swapped
 
     do{
         swapped = false
-        for(let i = 0; i<
-            arr.length - 1; i++){
+        for(let i = 0; i<arr.length - 1; i++){
             if(arr[i] > arr[i+1] ){
                 let temp = arr[i];
                 arr[i] = arr[i+1]
@@ -17,7 +16,7 @@ let swapped
 }
 const arr = [1,2,4,-2,-1,9,22]
 BubbleSort(arr)
-console.log()
+console.log(arr)
 
 
 // bit-O = O(n^2)
