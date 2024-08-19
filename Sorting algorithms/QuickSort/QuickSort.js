@@ -24,3 +24,6 @@ function QuickSort(arr){
 
 const arr = [1,3,0,9,5,2]
 console.log(QuickSort(arr))
+
+// worts case - O(n^2)
+// average case - O(nlogn)
