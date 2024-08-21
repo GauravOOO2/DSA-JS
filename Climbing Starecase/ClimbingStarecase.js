@@ -17,3 +17,6 @@ console.log(Steps(2))
 console.log(Steps(3))
 console.log(Steps(4))
 console.log(Steps(5))
+
+
+// big-O = 0(n);
