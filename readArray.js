@@ -3,12 +3,12 @@ var myName = "Gauravvv"
 var counter = 0; 
 
 function printArray(){
-    for(var i = 0; i<myName.length; i++){
+    for(var i = 1; i<myName.length; i++){
         console.log(myName[i])
         counter += 1;
     }
     console.log(counter)
-    console.log(i)
+    // console.log(i)
 }
 
 printArray()
