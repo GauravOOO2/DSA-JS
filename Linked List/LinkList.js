@@ -50,7 +50,22 @@ class LinkedList{
     }
 
     perpend(value){
-        
+        const node = new Node(value)
+        if(this.isEmpty()){
+            this.head = node
+        } else{
+            node.next = this.head
+            this.head = node
+        }
+        this.size++
     }
 
 }
+
+
+
+const list = new LinkedList()
+
+list.perpend(10)
+list.perpend(20)
+list.perpend(30)
